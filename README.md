@@ -117,7 +117,7 @@ To generate and manage student registration numbers automatically, reducing huma
 Enter student name: John Doe
 Enter department code: CS
 Generated Registration Number: CS-JD-1024
-Saved successfully to students.txt
+Saved successfully to students_registry.txt
 ```
 
 Search example:
