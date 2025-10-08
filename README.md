@@ -27,7 +27,7 @@ To generate and manage student registration numbers automatically, reducing huma
 
 ## 🧩 Algorithm Summary
 
-1. Accept student details (e.g., full name, department).
+1. Accept student details (last name, first name).
 2. Normalize the name and extract relevant components.
 3. Generate a unique registration number using defined rules.
 4. Save the record to a file.
@@ -61,12 +61,6 @@ To generate and manage student registration numbers automatically, reducing huma
 * **Task:** Appends student details to the file `students_registry.txt`
 * **Output:** None (writes to file)
 
-### 5. `search_student(reg_number)`
-
-* **Input:** Registration number (string)
-* **Task:** Searches the file for a matching record
-* **Output:** Matching student details if found, otherwise "Not found"
-
 ---
 
 ## 💾 File Structure
@@ -74,7 +68,7 @@ To generate and manage student registration numbers automatically, reducing huma
 ```
 ├── registration_numbers.ipynb
 ├── students_registry.txt
-├── README.md
+|___ README.md
 ```
 
 ---
@@ -86,17 +80,17 @@ To generate and manage student registration numbers automatically, reducing huma
 1. Clone this repository:
 
    ```
-   git clone https://github.com/yourusername/student-registration-generator.git
+   git clone https://github.com/'yourusername'/Student-ID-Registration-Number-py-project.git
    ```
 2. Navigate into the folder:
 
    ```
-   cd student-registration-generator
+   cd Student-ID-Registration-Number-py-project
    ```
 3. Run the program:
 
    ```
-   python student_registration.py
+   jupyter notebook
    ```
 
 ### Option 2: Google Colab
