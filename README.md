@@ -18,7 +18,7 @@ To generate and manage student registration numbers automatically, reducing huma
 ## ⚙️ Features
 
 * Generates unique registration numbers for each student.
-* Saves registration data to a local text file (`students.txt`).
+* Saves registration data to a local text file (`students_registry.txt`).
 * Allows searching for a student by registration number.
 * Modular design with reusable Python functions.
 * Can be extended to integrate with databases or web frontends.
@@ -58,7 +58,7 @@ To generate and manage student registration numbers automatically, reducing huma
 ### 4. `save_student(name, reg_number)`
 
 * **Input:** Student name and registration number
-* **Task:** Appends student details to the file `students.txt`
+* **Task:** Appends student details to the file `students_registry.txt`
 * **Output:** None (writes to file)
 
 ### 5. `search_student(reg_number)`
@@ -72,10 +72,9 @@ To generate and manage student registration numbers automatically, reducing huma
 ## 💾 File Structure
 
 ```
-├── student_registration.py
-├── students.txt
-├── README.txt
-└── requirements.txt
+├── registration_numbers.ipynb
+├── students_registry.txt
+├── README.md
 ```
 
 ---
@@ -102,7 +101,7 @@ To generate and manage student registration numbers automatically, reducing huma
 
 ### Option 2: Google Colab
 
-* Open this link: [Colab Notebook](https://colab.research.google.com)
+* Open this link: [Colab Notebook](https://colab.research.google.com/github/bob-aila/Py_mini_project/blob/main/registration_numbers.ipynb#scrollTo=4c6114cb)
 * Copy-paste the code into a new notebook cell and run.
 
 ### Option 3: Replit
